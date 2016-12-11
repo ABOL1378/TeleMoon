@@ -415,134 +415,96 @@ This command will send text to [group_id]
 *Only admins and sudo can use res, setowner, commands
 ]],
     help_text = [[
-Commands list :
+لیست دستورات درگروه :
 
-!kick [username|id]
-You can also do it by reply
+اخراج [آیدی،کد،ریپلای] 👤
+شخص مورد نظر از گروه اخراج ميشود
+_________________________________________
+بن [آیدی،کد،ریپلای]😟
+شخص مورد نظر از گروه تحریم میشود
+_________________________________________
+حذف بن[کد]😃
+شخص مورد نظر از تحریم خارج ميشود
+_________________________________________
+لیست بن👥
+لیست افرادی که از گروه تحریم شده اند
+_________________________________________
+خروج : ترک گروه 🔫
+صاحب : نمایش آیدی مدیر گروه
+_________________________________________
+لیست : لیست کمک مدیرها😍
+_________________________________________
+ترفیع [ریپلای،یوزرنیم]
+اضافه کردن کمک مدیر
+_________________________________________
+تنزل [ریپلای،یوزرنیم]
+حذف کردن کمک مدیر
+_________________________________________
 
-!ban [ username|id]
-You can also do it by reply
+قفل [اعضا|نام|ربات |تگ|عکس|خروج|فحش]🔒
+_________________________________________
 
-!unban [id]
-You can also do it by reply
+باز کردن [اعضا|نام|ربات |تگ|عکس|خروج|فحش]🔓
+_________________________________________
 
-!who
-Members list
+تنظیم عکس : اضافه کردن وقفل عکس گروه🌅
+_________________________________________
 
-!modlist
-Moderators list
+تنظیم نام [نام]⛩
+عوض کردن نام گروه
+_________________________________________
 
-!promote [username]
-Promote someone
+توضیحات: درباره گروه🏷
+_________________________________________
 
-!demote [username]
-Demote someone
+قوانین: قوانین گروه⚖⚖
+_________________________________________
 
-!kickme
-Will kick user
+تنظیم قانون<متن>⚖
+_________________________________________
 
-!about
-Group description
+تنظیم توضیحات<متن> 
+تنظیمات: تنظیمات گروه🛠
+_________________________________________
 
-!setphoto
-Set and locks group photo
+لینک جدید : تعویض لینک و ارسال درگروه🏵
+_________________________________________
 
-!setname [name]
-Set group name
+لینک خصوصی :ارسال در چت خصوصی 💷
+_________________________________________
 
-!rules
-Group rules
+لینک : لینک گروه🔖
+_________________________________________
 
-!id
-return group id or user id
+حساسیت[تعداد]
+محدودیت تعداد اسپم📯🔆
+_________________________________________
 
-!help
-Returns help text
+پاک کردن 
+پاکسازی مدیرها/قوانین/موضوع✏️
+_________________________________________
+ایدی [یوزرنیم]
+بازگرداندن کد آیدی🤖
+_________________________________________ 
+_________________________________________
+_________________________________________
+تگ : صدا کردن افراد گروه🗣🗣
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Lock group settings
-*rtl: Kick user if Right To Left Char. is in name*
-
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
-Unlock group settings
-*rtl: Kick user if Right To Left Char. is in name*
-
-!mute [all|audio|gifs|photo|video]
-mute group message types
-*If "muted" message type: user is kicked if message type is posted 
-
-!unmute [all|audio|gifs|photo|video]
-Unmute group message types
-*If "unmuted" message type: user is not kicked if message type is posted 
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
-!settings
-Returns group settings
-
-!muteslist
-Returns mutes for chat
-
-!muteuser [username]
-Mute a user in chat
-*user is kicked if they talk
-*only owners can mute | mods and owners can unmute
-
-!mutelist
-Returns list of muted users in chat
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
-"!res @username"
-
-!log
-Returns group logs
-
-!banlist
-will return group ban list
+⚠️نیاز نیست از '!' و '/' استفاده کنید*⚠️
+_________________________________________
+_________________________________________
+_________________________________________
+ليست سودووسازنده بات ضداسپم :
+@OoO_SAMAN_edris_shahe_tele_OoO 
+_________________________________________
+سلام با دور و خسته نباشید  از انجایی که تلگرام ی ای پی ان پیشرفته هست میتوانیم به او ربات اضافه کنیم و کار خود را راحت کنیم😍
 
 
-
-**You can use "#", "!", "/" or " " to begin all commands
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
+برای مشاوره و خرید به ایدی زیر مراجعه کنید*
+https://telegram.me/OoO_SAMAN_edris_shahe_tele_OoO
+وریپورتی ها»:
+https://telegram.me/sam_shahe_telebot
+منتظر شماهستیم❤️🌹💋
 
 ]],
 	help_text_super =[[
