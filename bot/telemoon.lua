@@ -275,8 +275,6 @@ function create_config( )
 "rmplug",
 "rmsg",
 "saveplugin",
-"server,
-"set",
 "setbye",
 "sethelp",
 "setwlc",
@@ -285,10 +283,7 @@ function create_config( )
 "sticker_maker",
 "tagall",
 "time",
-"voice-maker",
-"weather",
-"webshot",
-"write",
+
 
 
 
